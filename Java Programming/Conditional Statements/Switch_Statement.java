@@ -25,5 +25,24 @@ public class Switch_Statement
             default: System.out.println("We Wake Up");
                      break;
         }
+
+        System.out.print("\nEnter Your Choice Two : ");
+        char choice2 = sc.next().charAt(0);
+
+        System.out.println("\nPress \"a\" for Buying \"Samosa\".");
+        System.out.println("Press \"b\" for Buying \"Burger\".");
+        System.out.println("Press \"c\" for Buying \"Mango Shake\".");
+
+        switch (choice2)
+        {
+            case 'a': System.out.println("Samosa");
+                     break;
+            case 'b': System.out.println("Burger");
+                     break;
+            case 'c': System.out.println("Mango Shake");
+                     break;        
+            default: System.out.println("We Wake Up");
+                     break;
+        }
     }    
 }
