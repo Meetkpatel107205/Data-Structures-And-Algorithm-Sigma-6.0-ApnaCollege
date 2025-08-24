@@ -48,7 +48,7 @@ public class PracticeQuestion03
             }
             default:
             {
-                System.out.println("Invalid Week Number");
+                System.out.println("Invalid input! Please enter week number between 1-7.");
                 break;
             }
         }
