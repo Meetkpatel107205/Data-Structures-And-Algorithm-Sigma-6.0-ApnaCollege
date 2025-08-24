@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class IfElse {
+public class elseIf {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -14,6 +14,10 @@ public class IfElse {
         if(age >= 18)
         {
             System.out.println("\nAdult : Drive, Vote");
+        }
+        else if(age > 13 && age < 18)
+        {
+            System.out.println("\nTeenager");
         }
         else
         {
