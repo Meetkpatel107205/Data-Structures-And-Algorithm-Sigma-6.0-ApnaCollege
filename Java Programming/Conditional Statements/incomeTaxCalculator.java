@@ -30,5 +30,7 @@ public class incomeTaxCalculator
 
         System.out.println("\nTax Amount = " + tax);
         System.out.println("Income After Deducting Tax Amount = " + incomeAfterTaxDeduct);
-    }    
+
+        sc.close();
+    }
 }

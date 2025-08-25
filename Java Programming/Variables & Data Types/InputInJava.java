@@ -45,5 +45,7 @@ public class InputInJava
 
         long l = sc.nextLong();
         System.out.println(l);
+
+        sc.close();
     }    
 }

@@ -17,5 +17,7 @@ public class Print_number_from_1_to_n
             System.out.print(counter + " ");
             counter++;
         }
+
+        sc.close();
     }    
 }

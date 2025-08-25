@@ -44,5 +44,7 @@ public class Switch_Statement
             default: System.out.println("We Wake Up");
                      break;
         }
+
+        sc.close();
     }    
 }

@@ -13,6 +13,8 @@ public class Ternary_Operator
         // Ternary Operator
         String type = (number % 2 == 0) ? "Even" : "No";
 
-        System.out.println(type); 
+        System.out.println(type);
+
+        sc.close();
     }
 }

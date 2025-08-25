@@ -21,5 +21,7 @@ public class Print_sum_of_first_n_natural_numbers
         }
 
         System.out.println("\nSum of first " + n + " natural numbers is : " + sumOfNNatural);
+
+        sc.close();
     }    
 }

@@ -23,5 +23,7 @@ public class elseIf {
         {
             System.out.println("\nNot Adult");
         }
+
+        sc.close();
     }
 }

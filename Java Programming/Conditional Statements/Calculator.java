@@ -54,5 +54,7 @@ public class Calculator
                 break;
             }
         }
+
+        sc.close();
     }
 }

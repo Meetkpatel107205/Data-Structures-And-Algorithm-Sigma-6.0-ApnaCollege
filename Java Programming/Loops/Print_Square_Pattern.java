@@ -20,5 +20,7 @@ public class Print_Square_Pattern
             }
             System.out.println();
         }
+
+        sc.close();
     }    
 }

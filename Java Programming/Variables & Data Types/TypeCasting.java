@@ -14,5 +14,7 @@ public class TypeCasting {
         float marks = 99.999f;
         int marks2 = (int) marks;
         System.out.println(marks2); // ---> Important Data that we lost after casting into int(lost of floating point values).
+
+        sc.close();
     }    
 }

@@ -13,5 +13,7 @@ public class Pass_or_Fail
         String reportCard = (marks >= 33) ? "Pass" : "Fail";
 
         System.out.println("Result = " + reportCard);
+
+        sc.close();
     }    
 }

@@ -20,5 +20,7 @@ public class largestNumber {
         {
             System.out.println("\nLargest Number is " + num2);
         }
+
+        sc.close();
     }
 }

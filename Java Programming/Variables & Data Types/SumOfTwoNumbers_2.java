@@ -18,5 +18,7 @@ public class SumOfTwoNumbers_2
         System.out.println("\nNumber - 1 = " + a);
         System.out.println("Number - 2 = " + b);
         System.out.println("\nSum = " + sum);
+
+        sc.close();
     }
 }

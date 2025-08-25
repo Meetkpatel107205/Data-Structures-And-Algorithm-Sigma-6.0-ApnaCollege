@@ -43,6 +43,8 @@ public class printLargestOf3
             }   
         }
 
+        sc.close();
+
         // Method - 2 :-
 
         // if(A >= B && A >= C)
@@ -57,5 +59,7 @@ public class printLargestOf3
         // {
         //     System.out.println("\nGreatest Number is " + C);
         // }
+        // 
+        // sc.close();
     }    
 }
