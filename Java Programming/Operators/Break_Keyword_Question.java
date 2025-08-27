@@ -7,7 +7,7 @@ public class Break_Keyword_Question
     {
         Scanner sc = new Scanner(System.in);
 
-        while(true)
+        do
         {
             System.out.print("\nEnter Any Number : ");
             int temp = sc.nextInt();
@@ -20,8 +20,8 @@ public class Break_Keyword_Question
             System.out.println();
 
             System.out.println(temp);
-        }
+        }while(true);
 
         sc.close();
-    }    
+    }
 }
