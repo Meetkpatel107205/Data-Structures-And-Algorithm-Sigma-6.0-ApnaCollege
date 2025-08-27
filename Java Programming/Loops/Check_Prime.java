@@ -35,5 +35,7 @@ public class Check_Prime
                 System.out.println(n + " is Not a Prime Number");
             }
         }
+
+        sc.close();
     }    
 }
