@@ -21,5 +21,5 @@ public class Continue_Keyword_Question
 
             System.out.println(temp);
         }while(true);
-    }    
+    }
 }
