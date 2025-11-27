@@ -69,6 +69,7 @@ public class PracticeQuestion03 {
         // After full reverse is completed, compare it
         return number == reverse;
     }
+    
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
