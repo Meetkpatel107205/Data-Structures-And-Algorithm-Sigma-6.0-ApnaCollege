@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class sumOf2Num {
+public class SumOf2Num {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
