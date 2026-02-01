@@ -30,7 +30,6 @@ public class PracticeQuestion_03 {
 
         System.out.println("\n---: Enter Element's of 2D Array(Matrix) :---\n");
 
-        // Input
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < m; j++)
